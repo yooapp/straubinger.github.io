@@ -1,0 +1,25 @@
+{
+  "name": "SusanneStraubinger",
+  "version": "0.0.0",
+  "description": "Homepage für Susanne Straubinger",
+  "main": "_site/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nielsnuebel/susannestraubinger.git"
+  },
+  "author": "Niels Nuebel <niels@niels-nuebel.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nielsnuebel/susannestraubinger/issues"
+  },
+  "homepage": "https://github.com/nielsnuebel/susannestraubinger#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "lodash": "^4.14.0"
+  }
+}

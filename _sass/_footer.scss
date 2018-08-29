@@ -1,0 +1,15 @@
+footer {
+  margin-top: -40px;
+  min-height: 40px;
+  background: $brand-color;
+  position: relative;
+  z-index: 9999;
+  clear: both;
+  color: white;
+  padding: 6px 0;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

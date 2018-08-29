@@ -1,0 +1,21 @@
+<!doctype html>
+<html class="no-js" lang="">
+{% include head.html %}
+<body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
+<div id="wrap">
+    {% include header.html %}
+    {% include nav.html %}
+    {% if page.headline %}<h1 class="headline">{{ page.headline }}</h1>{% endif %}
+    <div class="bg {% if page.body_class %}{{ page.body_class }}{% endif %}"></div>
+    <div id="page">
+        <div class="container">
+            {{ content }}
+        </div><!-- .container -->
+    </div><!-- #page -->
+</div>
+{% include footer.html %}
+{% include scripts.html %}
+{% include googleanalytics.html %}
+</body>
+</html>
+

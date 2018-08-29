@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  color: $body-color;
+  font-size: 20px;
+  position: relative;
+}
+
+strong, em {
+  font-weight: bold;
+  color: $brand-color;
+}
+
+a {
+  color: $brand-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+#wrap {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#page {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  z-index: 99;
+  .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    @media (min-width: 700px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+}
+.logo {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+
+  @media (max-width: 820px) {
+    display: none;
+
+  }
+}
+
+#map {
+  height: 350px;
+  width: 100%;
+}
+
+h1.headline {
+  background: $brand-color;
+  display: block;
+  margin: 0;
+  padding: 10px 0 14px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 400;
+  @media (min-width: 700px) {
+    display: none;
+
+  }
+}

@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Buchholz Fußpflege - Susanne Straubinger
+description:
+baseurl: ""
+url: "http://susannestraubinger.niels-nuebel.de"
+googleanalyticss:  UA-86581203-1
+
+# Build settings
+markdown: kramdown
+
+
+#Exclude Files or Folder
+exclude: [node_modules, gulpfile.js, package.json, bower_components, bower.json, Gemfile, Gemfile.lock, README.md, CNAME]
+sass:
+  sass_dir: _sass
+  style: compressed
+
+repository: nielsnuebel/susannestraubinger
+
+# Site nav
+nav:
+
+- name: Start
+  link: "/"
+
+- name: Wer sind wir
+  link: "/team.html"
+
+- name: Was machen wir
+  link: "/was-machen-wir.html"
+
+- name: So arbeiten wir
+  link: "/behandlungen.html"
+
+- name: Wo finden Sie uns
+  link: "/kontakt.html"
+
+footernav:
+
+- name: Impressum
+  link: "/impressum.html"
+
+- name: Datenschutz
+  link: "/datenschutz.html"
+
+- name: AGB
+  link: "/agb.html"

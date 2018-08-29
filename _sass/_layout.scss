@@ -1,0 +1,88 @@
+body {
+  &.intro {
+    .text {
+      margin-top: 40px;
+      max-width: 587px;
+    }
+  }
+
+  &.team {
+    .text {
+      max-width: 590px;
+
+      h2 {
+        margin: 50px 0 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  &.was {
+    .text {
+      max-width: 680px;
+
+      .brand {
+        font-size: 20px !important;
+        line-height: 24px;
+      }
+
+      h2 {
+        margin: 50px 0 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  &.behandlungen {
+    .text {
+      max-width: 730px;
+
+      strong {
+        font-weight: 400 !important;
+      }
+      ul {
+        margin-top: 0;
+        li {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+.text {
+  .brand {
+    color: $brand-color;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  ul {
+    margin: 20px 0;
+    list-style: none;
+
+    li {
+      padding-left: 0px;
+
+      &:before {
+        content: "\2022";
+        padding-right: 20px;
+        margin-left: -24px;
+        width: 4px;
+      }
+    }
+  }
+}

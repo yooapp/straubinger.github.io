@@ -1,0 +1,44 @@
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  @media (max-width: 740px){
+    position: relative;
+    top: 0;
+  }
+
+  &.intro {
+    background-image: url(../assets/images/bg/start.jpg);
+    @media (max-width: 740px) {
+      height: 350px;
+    }
+
+  }
+
+  &.team {
+    background-image: url(../assets/images/bg/start.jpg);
+    @media (max-width: 740px) {
+      height: 350px;
+    }
+  }
+
+  &.was {
+    background-image: url(../assets/images/bg/behandlungen2.jpg);
+    @media (max-width: 740px) {
+      height: 350px;
+    }
+  }
+
+  &.behandlungen {
+    background-image: url(../assets/images/bg/behandlungen.jpg);
+    @media (max-width: 699px) {
+      height: 350px;
+    }
+  }
+}

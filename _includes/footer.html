@@ -1,0 +1,7 @@
+<footer>
+<div class="container">
+    <a href="https://www.facebook.com/buchholzfusspflege" target="_blank"><span class="fa fa-facebook-official "></span></a>
+    <a href="https://plus.google.com/b/117645132088884399145/117645132088884399145" target="_blank"><span class="fa fa-google-plus-official "></span></a> ·
+    <span>Buchholz Fußpflege · Kirchenstraße 7 · 21244 Buchholz i.d.N. · Tel.: <a href="tel:+4941819994124" style="white-space:nowrap;">04181-999 4124</a> · {% assign links = site.footernav | where: "name", "AGB" %}{% for link in links %}<a href="{{ link.link }}">AGB</a>{% endfor %} · {% assign links = site.footernav | where: "name", "Datenschutz" %}{% for link in links %}<a href="{{ link.link }}">Datenschutz</a>{% endfor %}/{% assign links = site.footernav | where: "name", "Impressum" %}{% for link in links %}<a href="{{ link.link }}">Impressum</a>{% endfor %}</span>
+</div>
+</footer>
